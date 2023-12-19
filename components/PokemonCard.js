@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     },
     movesText:{
         fontSize: 22,
-        fontWeight: 600
+        fontWeight: "400"
     },
     weaknessContainer:{
         marginBottom: 4
@@ -124,6 +124,6 @@ const styles = StyleSheet.create({
     },
     weaknessText:{
         fontSize: 22,
-        fontWeight: 600
+        fontWeight: "400"
     }
 })
