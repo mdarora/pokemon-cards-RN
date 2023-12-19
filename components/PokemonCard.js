@@ -20,7 +20,7 @@ export default function PokemonCard({ name, image, type, hp, moves, weaknesses }
     return (
         <View style={styles.card}>
             <View style={styles.cardTop}>
-                <Text style={styles.name}>{name}</Text>
+                <Text style={[styles.name, {color: borderColor}]}>{name}</Text>
                 <Text style={styles.hp}>❤️{hp}</Text>
             </View>
 
